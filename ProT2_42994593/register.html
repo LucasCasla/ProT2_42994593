@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="miestilo.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Registrarse - Aston Birra</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/escudo.jpg" alt="Logo Aston Birra" class="logo">
+        <nav aria-label="Navegación Principal" class="navbar">
+          <input type="checkbox" id="menu-toggle">
+          <label for="menu-toggle" class="hamburger">&#9776;</label>
+          <ul class="nav-menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Quiénes Somos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="register.html">Registrarse</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+          <form class="search-form">
+            <input type="text" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+          </form>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Registrarse</h1>
+            <form class="register-form">
+                <div>
+                    <label for="username">Nombre de Usuario:</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <button type="submit" class="button">Registrarse</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Aston Birra. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
